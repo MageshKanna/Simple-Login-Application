@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --header-color:#726CF8;
+    --body-color:#5F0A87;
+    --header-text:#647DEE;
+}
+
+body{
+    font-family: sans-serif;
+}
+header,footer{
+    width: 100%;
+    height: 100px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    height: 50px;
+    bottom: 0;
+    position: fixed;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 250px;
+    place-content: center;
+    border: 1px solid blue;
+}
