@@ -11,34 +11,15 @@
 
 <body>
     <header>
-        <h1>Welcome to Simple Login System!</h1>
+        <h1>Welcome to a Simple Login System!</h1>
     </header>
 
     <main>
-        <section class="main-content">
-            <sub>
-                <label for="email">Email Address</label>
-                <input type="email" name="email" placeholder="Enter Your Email here">
-            </sub>
+        <div class="container">
+            <form action="">
 
-            <sub>
-                <label for="password">Password</label>
-                <input type="password" name="password" placeholder="Enter Your Password here">
-            </sub>
-
-            <sub>
-                <a href="">forgot password?</a>
-                <button type="checkbox">Remember me!</button>
-            </sub>
-
-            <sub>
-                <button type="submit">Login!</button>
-
-                <p>OR</p>
-
-                <a href="">Create your Account Now</a>
-            </sub>
-        </section>
+            </form>
+        </div>
     </main>
 
     <footer>
