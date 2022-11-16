@@ -23,7 +23,7 @@
     </main>
 
     <footer>
-        <p>© 2022-2023|All Rights Reserved </p>
+        <p>&copy 2022-2023|All Rights Reserved </p>
     </footer>
 
 </body>
