@@ -14,7 +14,6 @@ class Logincontroller extends Login
     }
 
     public function loginUser(){
-        $result;
 
         if($this->emptyInputCheck() == false){
             header("location:../login.php?error=emptyFields");
