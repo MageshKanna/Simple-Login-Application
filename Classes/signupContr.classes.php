@@ -14,7 +14,6 @@ class Signupcontroller extends Signup
     }
 
     public function signUpUser(){
-        $result;
 
         if($this->emptyInputCheck() == false){
             header("location:../login.php?error=emptyFields");
