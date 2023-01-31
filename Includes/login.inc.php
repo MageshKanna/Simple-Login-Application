@@ -7,14 +7,14 @@ if(isset($_POST['submit']))
     $email = $_POST['email'];
     $password = $_POST['password'];
 
-    //Instantiating signup controller
+    //Instantiating login controller
     include_once('../Classes/database.classes.php');
     include_once ('../Classes/login.classes.php');
     include_once('../Classes/loginContr.classes.php');
 
     $login = new Logincontroller($email, $password);
 
-    //running error handlers and user signup
+    //running error handlers and user login
 
     $login-> loginUser();
 
